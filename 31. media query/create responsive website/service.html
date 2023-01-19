@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.service {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #eff4fd;
+}
+.service h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.column h2 {
+  text-transform: capitalize;
+  font-size: 25px;
+  color: black;
+}
+.column h2:hover
+{
+    color: orange;
+}
+
+.column {
+  float: left;
+
+  width: 50%;
+  height: auto;
+  color: darkgray;
+  letter-spacing: 1px;
+  line-height: 28px;
+  padding: 5%;
+  cursor: pointer;
+  align-items: center;
+  padding-left: 10%; 
+ 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column img {
+  height: 200px;
+  width: 70%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.column p:hover
+{
+    color: black;
+}
+.column p{
+    cursor: pointer;
+}
+
+</style>
+<body>
+    <section>
+        <div class="service">
+            <h1>services</h1>
+           
+
+            <div class="row">
+                <div class="column">
+                    <h2>Frontend Developing</h2><br>
+                    
+                    <p>Optimization Web Presentation.<br>
+                        Client-Side Develioment With HTML , CSS & Javascript<br>
+                        Test Website For Usability<br>
+                        Ensure Browser Compatability<br>
+                        develop new user facing fetures<br>
+                        design mobail based fetures</p>
+                    <img src="./aseets/frontend3.jpg" alt="">
+                </div>
+
+                <div class="column">
+                    <h2>Web Designing</h2><br>
+                    <p>Update Existing Websites<br>
+                        Implement Specification Onto Websites That Rre Inline withClient Needs.<br>
+                        Optimize Website For Maximum Speed And Scalability<br>
+                        Responsible For The Layout Design , And Functionality Of Websites<br> </p>
+                    <img src="./aseets/web design.jpg" alt="">
+                </div>
+    </section>
+</body>
+</html>
